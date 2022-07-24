@@ -19,6 +19,12 @@ function solve(matrix) {
     for (let i = 0; i < 9; i++) {
         for (var j = 0; j < 9; j++) {
             if (matrix[i][j] !== 0) {
+                if (rowMap[i][matrix[i][j]] === 1)
+                    return false;
+                else if (colMap[j][matrix[i][j]] === 1)
+                    return false;
+                else if (boxMap[boxLocation(i, j) - 1][matrix[i][j]] === 1)
+                    return false;
                 rowMap[i][matrix[i][j]] = 1;
                 colMap[j][matrix[i][j]] = 1;
                 boxMap[boxLocation(i, j) - 1][matrix[i][j]] = 1;
