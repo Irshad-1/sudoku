@@ -92,7 +92,7 @@ function App() {
   return (
     <ChakraProvider theme={theme}>
       <Heading size="4xl" textAlign="center" color="#06283D" fontFamily="monospace">IRSHAD SUDOKU SOLVER</Heading>
-      <Grid width='600px' margin='30px auto' borderRadius='5%' overflow='hidden' templateColumns='repeat(9,1fr)'>
+      <Grid width='600px' gap="1" margin='30px auto' borderRadius='5%' overflow='hidden' templateColumns='repeat(9,1fr)'>
         {box}
       </Grid>
       {isOpen && (
