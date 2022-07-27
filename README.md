@@ -55,7 +55,7 @@ I developed this project individually using Problem Solving Technques and used R
 # Screen captures of our project
 # Before Solve
 ![image](https://user-images.githubusercontent.com/53389729/181352304-3ad9e181-3bfd-47b2-8f71-83b650b21bfd.png)
-#After Solve
+# After Solve
 ![image](https://user-images.githubusercontent.com/53389729/181352493-bd8866b0-b705-4446-a5e5-08028cce912d.png)
 
 # Challenges Faced:
