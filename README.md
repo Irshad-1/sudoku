@@ -2,6 +2,18 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Available Scripts
 
+## Installing and Running
+
+
+<h2> Deployed Link : https://irshad-sudoku.netlify.app/ </h2>
+
+> Executing the commands mentioned below one by one in your command line will help in making this application run on your system.
+> 
+> ```bash
+> git clone https://github.com/Irshad-1/sudoku
+> cd ./sudoku
+> ```
+
 In the project directory, you can run:
 
 ### `npm start`
@@ -37,32 +49,17 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
+# Experience while building SUDOKU Solver
+I developed this project individually using Problem Solving Technques and used React alongwith Chakra UI library for frontend.Thanks to Masai for their support and guidance.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+# Screen captures of our project
+# Before Solve
+![image](https://user-images.githubusercontent.com/53389729/181352304-3ad9e181-3bfd-47b2-8f71-83b650b21bfd.png)
+#After Solve
+![image](https://user-images.githubusercontent.com/53389729/181352493-bd8866b0-b705-4446-a5e5-08028cce912d.png)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+# Challenges Faced:
+The main challenge was sudoku solver algorithm ,I took a whole day while writing the algorithm and I by myself devised the algorithm using backtracking and recursion. Thanks to masai for their support and  guidance.  
 
-### Code Splitting
+Thanks for reading
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
